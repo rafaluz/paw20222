@@ -1,0 +1,24 @@
+/* resetando os espaços dos elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 873px;
+    height: 513px;
+    background-color: #309F41;
+}
+
+
+
+
+/* verde claro
+#309F41
+
+verde escuro
+#1E3115
+
+vermelho
+#CE171F */
