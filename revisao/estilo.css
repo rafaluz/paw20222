@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
 /* resetando os espaços dos elementos */
 * {
     box-sizing: border-box;
@@ -5,10 +7,55 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .card {
     width: 873px;
     height: 513px;
     background-color: #309F41;
+    display: flex;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 20px;
+}
+
+.perfil {
+    height: 281px;
+    width: 281px;
+    border: 30px solid #1E3115;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 70px;
+}
+
+.perfil:hover {
+    border: 50px solid #CE171F;
+    transition: 0.3s;
+    cursor: pointer  ;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo h1 {
+    color: #fff;
+    font-size: 38px;
+}
+
+.conteudo p {
+    color: #1E3115;
+    font-size: 24px;
+    margin: 20px 0;
+    font-weight: 900;
 }
 
 
