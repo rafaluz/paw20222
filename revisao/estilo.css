@@ -58,6 +58,42 @@ body {
     font-weight: 900;
 }
 
+.conteudo ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.conteudo ul li span {
+    color: #1E3115;
+    font-size: 56px;
+}
+.conteudo ul li span:hover {
+    color: #CE171F;
+}
+
+/* responsividade */
+@media (max-width: 650px){
+    .fundobonito {
+        display: none;
+    }
+    .perfil {
+        position: static;
+    }
+    .card {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 30px;
+        height: 100vh;
+        gap: 30px;
+    }
+    .conteudo {
+        text-align: center;
+    }
+    .conteudo ul {
+        justify-content: center;
+    }
+}
 
 
 
@@ -69,3 +105,7 @@ verde escuro
 
 vermelho
 #CE171F */
+
+/* @media (max-width: 650px) {
+
+} */
