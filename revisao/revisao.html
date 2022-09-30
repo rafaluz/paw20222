@@ -12,11 +12,11 @@
 <body>
     
     <div class="card">
-        <img class="perfil" src="img/professor.png" alt="foto do professor">
+        <img id="userAvatar" class="perfil" src="" alt="foto do professor">
         <img class="fundobonito" src="img/fundobonito.svg" alt="">
         <div class="conteudo">
-            <h1>RAFAEL LUZ ARAÚJO</h1>
-            <p>Professor de Informática do IFPI Campus Paulistana.</p>
+            <h1 id="userName" onclick="mudaCor('red')"></h1>
+            <p id="userBio"></p>
             <ul>
                 <li>
                     <a href="">
@@ -43,5 +43,6 @@
         </div>
     </div>
     
+    <script src="scripts.js"></script>
 </body>
 </html>
